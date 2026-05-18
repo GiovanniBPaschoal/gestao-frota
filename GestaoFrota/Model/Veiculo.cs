@@ -12,5 +12,10 @@ namespace GestaoFrota.Model
         private string cor;
         private int ano;
 
+        public string Placa { get => placa; set => placa = value; }
+        public string Fabricante { get => fabricante; set => fabricante = value; }
+        public string Modelo { get => modelo; set => modelo = value; }
+        public string Cor { get => cor; set => cor = value; }
+        public int Ano { get => ano; set => ano = value; }
     }
 }
